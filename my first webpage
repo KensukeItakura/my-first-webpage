@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私の最初のホームページ</title>
+    <style>
+        body {
+            background-color: #e0f7fa; /* 背景色: 薄い青色 */
+            color: #333333;         /* 文字色: 濃い灰色 */
+            font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, sans-serif; /* フォント指定 (日本語環境を考慮) */
+            line-height: 1.6;       /* 行間を少し広げて読みやすく */
+            margin: 0;              /* ブラウザのデフォルトマージンをリセット */
+            padding: 20px;          /* ページ全体に内側の余白を設定 */
+        }
+
+        .container {
+            max-width: 800px;       /* コンテンツの最大幅を設定 */
+            margin: 20px auto;      /* 上下左右の自動マージンで中央揃え */
+            padding: 20px;
+            background-color: #ffffff; /* コンテンツエリアの背景を白に（任意） */
+            border-radius: 8px;     /* 角を少し丸める（任意） */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 軽い影をつける（任意） */
+        }
+
+        h1 {
+            text-align: center;     /* 見出しを中央揃え */
+            color: #00796b;         /* 見出しの色を少し変える (任意) */
+        }
+
+        h2 {
+            border-bottom: 2px solid #00796b; /* サブ見出しに下線 (任意) */
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        ul {
+            list-style-type: disc;  /* 箇条書きのマーカーを円盤に */
+            padding-left: 20px;     /* 箇条書きの左側に余白 */
+        }
+
+        li {
+            margin-bottom: 8px;     /* 各リスト項目の下に少し余白 */
+        }
+
+        p {
+            margin-bottom: 10px;    /* 段落の下に少し余白 */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ようこそ!</h1>
+
+        <h2>自己紹介</h2>
+        <p><strong>名前:</strong> 板倉健将</p>
+        <p><strong>学部学科:</strong> 理工学部応用情報工学科</p>
+
+        <h2>趣味</h2>
+        <ul>
+            <li>ゲーム</li>
+            <li>ランニング</li>
+            <li>読書</li>
+        </ul>
+    </div>
+
+</body>
+</html>
